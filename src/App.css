@@ -1,0 +1,151 @@
+* {
+  text-decoration: none;
+  list-style-image: none;
+  list-style: none;
+}
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.user{
+  
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 3px; color: #8b0014;
+}
+
+.opening-hours {
+  
+    text-align: center; 
+}
+
+.opening-hours {
+  text-align: left;
+}
+
+.opening-hours p {
+  margin: 0;
+}
+
+img {
+  max-width: 100px;
+}
+
+/* 
+.info{
+  background-color: aqua;
+} */
+
+
+/* ///// */
+
+/* LatestCocktail */
+
+
+
+/* SIDEBAR */
+
+.red {
+  width: 250px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ .red {
+  color: #333333;
+}
+
+.red h2 {
+  margin-bottom: 10px;
+  color: #8b0014;
+}
+
+.red p {
+  margin-bottom: 5px;
+  color: #666666;
+}
+
+.red .job {
+  color: #888888;
+}
+
+
+.menu {
+  margin-right: 100px;
+}
+
+/* MENU DEROULANT */
+
+.mainmenubtn {
+  background-color: #8b0014;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  padding:20px;
+  margin-top:20px;
+}
+.mainmenubtn:hover {
+  background-color: #8b00156b;
+  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  background-color: #8b00156b;
+  min-width: 200px;
+}
+.dropdown-child a {
+  color: #8b0014;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+/* TESTE */
+
+.blocinfo {
+  background-color: #4e2020;
+}
+
