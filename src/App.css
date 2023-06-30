@@ -35,6 +35,14 @@ header {
   margin-left: 10px;
 }
 
+nav{
+  display: flex;
+}
+
+.user{
+  padding-top: 40px;
+}
+
 /* .user{
   
 } */
