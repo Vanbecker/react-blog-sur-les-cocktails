@@ -28,10 +28,10 @@ const Header = ({ user }) => {
                 <button class="mainmenubtn">Main Menu</button>
                 <div class="dropdown-child">
                     <a href="https://www.youtube.com/watch?v=PA3P1-aSvKQ">Sub-Menu 1</a>
-                    <a href="">Sub-Menu 2</a>
-                    <a href="">Sub-Menu 3</a>
-                    <a href="">Sub-Menu 4</a>
-                    <a href="">Sub-Menu 5</a>
+                    <a href="">Menu 2</a>
+                    <a href="">Menu 3</a>
+                    <a href="">Menu 4</a>
+                    <a href="">Menu 5</a>
                 </div>
             </div>
 
