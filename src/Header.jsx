@@ -23,19 +23,19 @@ const Header = ({ user }) => {
         <header>
             <div className="logo"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/cocktail-bar-logo-design-template-0b6dcabbeddbf2172792d9c93780969b_screen.jpg?ts=1586437653" alt="drink" /></div>
             <h1 className="title">Blog sur les cocktails</h1>
-
-            <div class="dropdown menu">
-                <button class="mainmenubtn">Main Menu</button>
-                <div class="dropdown-child">
-                    <a href="https://www.youtube.com/watch?v=PA3P1-aSvKQ">Menu 1</a>
-                    <a href="">Menu 2</a>
-                    <a href="">Menu 3</a>
-                    <a href="">Menu 4</a>
-                    <a href="">Menu 5</a>
+            <nav>
+                <div class="dropdown menu">
+                    <button class="mainmenubtn">Main Menu</button>
+                    <div class="dropdown-child">
+                        <a href="https://www.youtube.com/watch?v=PA3P1-aSvKQ">Menu 1</a>
+                        <a href="">Menu 2</a>
+                        <a href="">Menu 3</a>
+                        <a href="">Menu 4</a>
+                        <a href="">Menu 5</a>
+                    </div>
                 </div>
-            </div>
-
-            <div className="user">{user.firstName} {user.lastName}</div>
+                <div className="user">{user.firstName} {user.lastName}</div>
+            </nav>
         </header>
     );
 };
