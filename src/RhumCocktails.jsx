@@ -1,0 +1,1 @@
+// Créez ensuite un composant RhumCocktails. Ce composant doit recevoir en props cocktailsFromApi (comme les autres composants) depuis App.js. Mais ce composant ne doit affichez que les cocktails contenant du Rhum. Il faudra donc, dans le composant, filtrer les cocktails pour n'afficher que ceux ayant du rhum dans leurs ingrédients.

@@ -61,10 +61,19 @@ function App() {
       <RandomCocktail cocktails={cocktailsFromApi} /> {/* Correction: Utilisation de la prop "cocktails" */}
       <LatestCocktails cocktails={cocktailsFromApi} /> {/* Affichage du composant LatestCocktails avec les données des cocktails */}
       <AllCocktails cocktails={cocktailsFromApi} /> {/* Affichage du composant AllCocktails avec les données des cocktails */}
-      <Sidebar user={userFromApi} /> {/* Affichage du composant Sidebar avec les données utilisateur */}
+      <aside>
+        <Sidebar user={userFromApi} /> {/* Affichage du composant Sidebar avec les données utilisateur */}
+      </aside>
       <Footer /> {/* Affichage du composant Footer */}
     </div>
   );
 }
 
 export default App;
+
+
+
+// INDEX
+
+{/* <aside> : l'élément aparté
+L'élément <aside> (en français, « aparté ») représente une partie d'un document dont le contenu n'a qu'un rapport indirect avec le contenu principal du document. Les apartés sont fréquemment présents sous la forme d'encadrés ou de boîtes de légende. */}
